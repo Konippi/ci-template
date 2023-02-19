@@ -1,0 +1,10 @@
+name: continuous integration
+on: [push]
+
+jobs:
+  hello-world:
+    name: Hello World
+    runs-on: ubuntu-latest
+    steps:
+      - name: print hello World
+        run: echo hello world
